@@ -6,7 +6,7 @@ import './hmt';
 
 const Tou7 = () => {
   const date = new Date();
-  if (date.getDate()) {
+  if (date.getDate() === 12 && date.getMonth() === 8) {
     return (
       <div>
         <h1 style={{color: '#dd2323', textAlign: 'center'}}>mtdhb 头七纪念日</h1>

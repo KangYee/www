@@ -4,19 +4,6 @@ import Alipay from './component/Alipay';
 import './globalStyle';
 import './hmt';
 
-const Tou7 = () => {
-  const date = new Date();
-  if (date.getDate() === 12 && date.getMonth() === 8) {
-    return (
-      <div>
-        <h1 style={{color: '#dd2323', textAlign: 'center'}}>mtdhb 头七纪念日</h1>
-        <img src={require('./static/tou7.gif')} style={{width: '100%', marginBottom: 30}} alt="头七" />
-      </div>
-    );
-  }
-  return null;
-};
-
 export default () => (
   <div
     style={{
@@ -33,7 +20,7 @@ export default () => (
       bordered={false}
       style={{maxWidth: 640, width: '100%', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)'}}
     >
-      <Tou7 />
+      <h1>域名出售：<a href="https://mi.aliyun.com/detail/online.html?spm=5176.8070854.1024.4.66fb2c4fxvRPDN&domainName=mtdhb.com&orgType=0&productType=2" target="_blank" rel="noopener noreferrer">点击购买</a></h1>
       <p>感谢大家大半年以来的支持。</p>
       <p>由于不可描述的原因，本站正式宣布关闭。</p>
       <p>
